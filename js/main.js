@@ -12,7 +12,7 @@ $(document).ready(function() {
     });
     $('.message-box-loader').css('display','none');
 	$('.message-box').css('display','block');
-	$.backstretch('/portfolio/images/header-bg.jpg');
+	$.backstretch('images/header-bg.jpg');
     //$(".intro-section").backstretch("images/header-bg.jpg");
 	
 	$('#what').waypoint(function(direction){
@@ -22,9 +22,9 @@ $(document).ready(function() {
 		$('.backstretch').remove();
 	
 		if (direction=='down'){
-			$.backstretch('/portfolio/images/contact-bg.jpg');
+			$.backstretch('images/contact-bg.jpg');
 		}else{
-			$.backstretch('/portfolio/images/header-bg.jpg');
+			$.backstretch('images/header-bg.jpg');
 		}
 	});
     /*============================================

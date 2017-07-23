@@ -1,4 +1,0 @@
-User-agent: *
-Disallow: 
-
-Sitemap: http://namluu.github.io/sitemap.xml 
