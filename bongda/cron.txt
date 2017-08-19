@@ -1,3 +1,0 @@
-RUN_FILE=/home/demo/bongda/get.php
-LOG_FILE=/home/demo/bongda/cron.log
-*/10 * * * * /usr/bin/php -f ${RUN_FILE} > ${LOG_FILE}
